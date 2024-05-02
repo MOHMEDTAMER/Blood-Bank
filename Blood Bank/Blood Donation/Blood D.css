@@ -1,0 +1,174 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+body {
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+.container {
+    width: 80%; /* Set a fixed width for the container */
+    max-width: 700px; /* Set a maximum width */
+    padding: 25px 30px 0;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    border-radius: 25px;
+    position: relative;
+    top:300px;
+    background-color: #c93333;
+}
+.container .heading{
+    font-size: 25px;
+    font-weight: 500 ;
+    position: relative;
+    text-align: center;
+    padding-top: 20px; 
+}
+.container .heading::before{
+    content: '';
+    position: absolute;
+    height: 3px;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
+.container form .Donor-information{
+    margin-top: 25px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+}
+form .Donor-information .Donor{
+    width: calc(100% / 2 - 20px);
+    margin-bottom: 15px;
+}
+.Donor-information .Donor .details{
+    display: block;
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+.Donor-information .Donor input{
+    height: 45px;
+    width: 100%;
+    outline: none;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    padding-left: 15px;
+    font-size: 15px;
+    border-bottom-width: 1px ;
+    transition: all 0.3s ease;
+}
+#Blood{
+    width: 90px;
+    height: 25px;
+    font-size: 17px;
+    border-radius: 5px ;
+}
+.Donor-select{
+    position: relative;
+    font-family: Arial;
+}
+.Donor-select select {
+    display: none;
+}
+.Donor-information .Donor input:focus,
+.Donor-information .Donor input:valid{
+    border-color: #9b59b6; 
+}
+form .circal-form .circal-title{
+    font-size: 20px;
+    font-weight: 500;
+    border-bottom: 2px solid;
+}
+form .circal-form .circal-choose{
+    margin-top: 10px ;
+    margin-bottom: 10px;
+
+}
+form .button{
+    text-align: center;
+    /* margin-left: 200px ; */
+}
+form .button input{
+    width: 100%;
+    background-color: #fff;
+    color: #7c0b0b;
+    font-size: 22px;
+    padding: 14px 20px;
+    margin-left: 155px ;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+form .button input:hover{
+    background: linear-gradient(-135deg, #e3e3e7, #ffffffca);
+}
+.fixed-header {
+    width: 100%;
+    position: fixed;
+    top: 0;
+    background: transparent;
+    padding: 10px 0;
+    background-color: #ffffff;
+    margin-left: 10px;
+}
+.fixed-header a img{
+    display: inline-block;
+    vertical-align: top;
+    text-decoration: none;
+    width: 90px;
+    height: 90px;
+    float: left;
+}
+.nav-container{
+  margin: 20px auto;
+  text-align: center;
+  font-weight: bold;
+  font-size: 20px;
+  width: fit-content;
+  -webkit-text-fill-color: white;
+  -webkit-text-stroke: 1px #333;
+  position: fixed;
+}
+.nav-container:before {
+    content: attr(data-text);
+    position: absolute;
+    left: 0;
+    top: 0;
+    -webkit-text-fill-color: #ff5722;
+    transition: 0.5s;
+    width: 0;
+    overflow: hidden;
+  }
+    .nav-container:hover:before {
+    width: 100%;
+  }
+nav a{
+    color: black;
+    text-decoration: none;
+    padding: 7px 25px;
+}
+.fixed-header a:hover {
+    background-color:inherit;
+    color:rgb(255, 60, 0);
+}
+.main-margin{
+    margin:100px 200px 0px 225px;
+}
+.main p{
+    font-size:large;
+}
+.main ul{
+    font-size:large;
+}
+.Logo{
+    border-radius: 2px;
+}
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');

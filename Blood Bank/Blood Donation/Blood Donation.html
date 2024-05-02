@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>First Test</title>
+    <link rel="stylesheet" href="Blood D.css">
+    <link rel="stylesheet" href="Background.css">
+    <title>
+        BLOOD Donation
+    </title>
+</head>
+<body>
+    <div class="fixed-header">
+        <div class="nav-container">
+            <nav>
+                <a><img src="D:\E-JUST\WEB\project\PRO\front end\Blood-Bank-logo.jpg" alt="Logo" /></a>
+                <div">
+                    <a href="D:\E-JUST\WEB\homepage\Home page.html"><!--home page link-->Home</a>
+                    <a href="D:\E-JUST\WEB\homepage\Blood Request.html">Request<!--Request page link--></a>
+                    <a href="D:\E-JUST\WEB\homepage\Blood Donation.html">Donor<!--donor page link--></a>
+                    <a href="#about">login<!--About page link--></a>
+                </div>
+            </nav>
+        </div>
+    </div>
+    <div class="page"></div>
+    <div class="container">
+        <div class="heading">
+            <h1>Blood Donation Form </h1>
+        </div>
+        <form action="#"> 
+            <div class= "Donor-information">
+                <div class="Donor">
+                    <!--Donor's name-->
+                    <span class="details">Donor's name</span>
+                    <input type="name" placeholder="Enter your name" required autofocus />
+                </div>
+                <div class="Donor">
+                    <!--Email-->
+                    <span class="details">Email</span>
+                    <input type="email" required placeholder="Enter your email">
+                </div>
+                <div class="Donor">
+                    <!--Age-->
+                    <span class="details">Age</span>
+                    <input type="Age" required placeholder="Enter your age" />
+                </div>
+                <div class="Donor">
+                    <!--Phone Number-->
+                    <span class="details">Phone Number</span>
+                    <input type="Phone Number" required placeholder="Enter your Phone Number" required>
+                </div>
+                <div class="Donor">
+                    <!--Occupation-->
+                    <span class="details"> National ID</span>
+                    <input type="text" required placeholder="Enter your National ID" />
+                </div>
+                <div class="Donor">
+                    <!--Home address-->
+                    <span class="details">Home address</span>
+                    <input type="text" required placeholder="Enter your address" />
+                </div>
+                <div class="circal-form">
+                    <!--Gender-->
+                    <span class="circal-title">Gender</span>
+                    <div class="circal-choose">
+                        <input id="M" type="radio" required name="gender" /><label for="M">Male</label>
+                        <!--"checked" to choose auto and you can change it easy-->
+                        <input id="F" type="radio" required name="gender" /><label for="F">Female</label>
+                    </div>
+                <div class="Donor">
+                    <!--Phone Number-->
+                    <span class="details">Blood type</span>
+                    <select  name="Blood" id="Blood">
+                        <!--"multiple" To choose more than one option-->
+                        <option  selected > ----- </option>
+                        <option>A+</option>
+                        <option>A-</option>
+                        <option>B+</option>
+                        <option>B-</option>
+                        <option>O+</option>
+                        <option>O-</option>
+                        <option>AB+</option>
+                        <option>AB-</option>
+                        <!--"selected" chosen already when you open-->
+                    </select>
+                </div>
+                <div class="circal-form">
+                    <span class="circal-title">Did you donate blood 3 months ago ?</span>
+                    <div class="circal-choose">
+                        <input id="y" type="radio" name="donate blood" /><label>Yes</label>
+                        <!--"checked" to choose auto and you can change it easy-->
+                        <input id="n" type="radio" name="donate blood" /><label>No</label>
+                    </div>
+                </div>
+                <div class="circal-form">
+                    <span class="circal-title">Any Diseases ?</span>
+                    <div class="circal-choose">
+                        <input type="radio" required name="Diseases" /><label>Yes</label>
+                        <input type="radio" required name="Diseases" /><label>No</label>
+                    </div>
+                </div>
+                <div class="circal-form">
+                    <span class="circal-title">Do you have any allergies ?</span>
+                    <div class="circal-choose">
+                        <input type="radio" required name="allergies" /><label>Yes</label>
+                        <input type="radio" required name="allergies" /><label>No</label>
+                    </div>
+                </div>
+                <div class="button">
+                    <!--Submit-->
+                    <input  type="submit"/>
+                </div>
+            </div>
+        </form>
+    </div>
+</body>
+</html>

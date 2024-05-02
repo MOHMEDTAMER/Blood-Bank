@@ -1,0 +1,159 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+body{
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    max-width: 700px;
+    width: 100%;
+    padding: 25px 30px;
+    border-radius: 25px;
+    position: relative; top: 25px;
+    background-color: #c93333;
+}
+.container .head{
+    font-size: 25px;
+    font-weight: 500;
+    position: relative;
+    text-align: center;
+    padding: 0 0 20px 0;
+}
+.container form .card-details{
+    margin-top: 25px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+form .card-details .card-box{
+    width: calc(100% / 2 - 20px);
+    margin-bottom: 15px;
+}
+.card-details .card-box .details{
+    display: block;
+    font-weight: 500;
+    margin-bottom: 5px;
+    color: white;
+}
+.card-details .card-box input{
+    height: 45px;
+    width: 100%;
+    outline: none;
+    border-radius: 5px;
+    border: 1px solid rgb(144, 45, 45);
+    padding-left: 15px;
+    font-size: 16px;
+    border-bottom-width: 2px;
+    transition: all 0.3s ease;
+}
+.card-details .card-box input:valid{
+    border-color: #ffffff ;
+}
+form .circal-form .circal-title{
+    font-size: 20px;
+    font-weight: 500;
+    border-bottom: 2px solid ;
+}
+form .circal-form .category{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+form .Button{
+    text-align: center;
+}
+form .Button input{
+    padding: 10px;
+    margin-top: 10px;
+    height: 100%;
+    width: 50%;
+    outline: none;
+    color: 135eg, #373860, #673535ca;
+    border: none;
+    font-size: 18px;
+    font-weight: 500;
+    border-radius: 5px;
+    letter-spacing: 1px;
+    background: linear-gradient(135eg, #ffffff, #ffffffca);
+}
+form .Button input:hover{
+    background: linear-gradient(-135deg, #e3e3e7, #ffffffca);
+}
+.danger {
+    background-color:#311717;
+    border-left: 6px solid #ce1f1f;
+    color: white;
+}
+#HEH{
+    color: white;
+}
+.fixed-header{
+    width: 100%;
+    position: fixed;        
+    background: transparent;
+    padding: 10px 0;
+    background-color: #ffffff;
+}
+.fixed-header a img{
+    display: inline-block;
+    vertical-align: top;
+    text-decoration: none;
+    width: 90px;
+    height: 90px;
+    float: left;
+}
+.fixed-header div{
+    margin-left: 10px;
+}
+.fixed-header{
+    top: 0;
+}
+.nav-container{
+  margin: 20px auto;
+  text-align: center;
+  font-weight: bold;
+  font-size: 20px;
+  width: fit-content;
+  -webkit-text-fill-color: white;
+  -webkit-text-stroke: 1px #333;
+  position: relative;
+}
+.nav-container:before {
+    content: attr(data-text);
+    position: absolute;
+    left: 0;
+    top: 0;
+    -webkit-text-fill-color: #ff5722;
+    transition: 0.5s;
+    width: 0;
+    overflow: hidden;
+  }
+  .nav-container:hover:before {
+    width: 100%;
+  }
+nav a{
+    color: black;
+    text-decoration: none;
+    padding: 7px 25px;
+}
+.fixed-header a:hover {
+    background-color:inherit;
+    color:rgb(255, 60, 0);
+}
+.main-margin{
+    margin:100px 200px 0px 225px;
+}
+.main p{
+    font-size:large;
+}
+.main ul{
+    font-size:large;
+}
+.Logo{
+    border-radius: 2px;
+}
